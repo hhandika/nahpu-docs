@@ -1,0 +1,5 @@
+{
+  "name": "Nahpu",
+  "description": "A digital catalog for natural history collections.",
+  "sidebar": [["Welcome", "/"]]
+}
