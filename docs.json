@@ -1,7 +1,6 @@
 {
   "name": "Nahpu",
   "description": "A digital catalog for natural history collections.",
-  "redirect": "/en",
   "sidebar": {
     "en": [["Welcome", "/EN"]],
     "id": [["Selamat Datang", "/ID"]]
