@@ -1,0 +1,8 @@
+{
+  "name": "Esselstyn Lab",
+  "description": "Esselstyn lab protocols",
+  "sidebar": {
+    "en": [["Welcome", "/EN"]],
+    "id": [["Selamat Datang", "/ID"]]
+  }
+}
