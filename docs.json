@@ -4,8 +4,8 @@
   "sidebar": {
     "default": [["Welcome", "/EN"]],
     "en": [
-      ["Welcome", "/EN"],
-      ["Quick Start", "EN/quick_start"]
+      ["Welcome", "/"],
+      ["Quick Start", "/quick_start"]
     ],
     "id": [["Selamat Datang", "/ID"]]
   }
