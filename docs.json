@@ -1,6 +1,7 @@
 {
   "name": "Nahpu",
   "description": "A digital catalog for natural history collections.",
+  "favicon": "../assets/favicon/favicon.ico",
   "logo": "../assets/logo/logo.png",
   "logoDark": "../assets/logo/logo.png",
   "anchors": [
