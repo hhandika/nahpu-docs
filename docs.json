@@ -5,7 +5,7 @@
   "logoDark": "../assets/logo/logo.png",
   "anchors": [
     {
-      "title": "Nahpu Source Code",
+      "title": "Source Code",
       "icon": "code",
       "link": "https://github.com/hhandika/nahpu"
     }
