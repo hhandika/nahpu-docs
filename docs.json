@@ -1,6 +1,15 @@
 {
   "name": "Nahpu",
   "description": "A digital catalog for natural history collections.",
+  "logo": "../assets/logo/logo.png",
+  "logoDark": "../assets/logo/logo.png",
+  "anchors": [
+    {
+      "title": "Nahpu Source Code",
+      "icon": "code",
+      "link": "https://github.com/hhandika/nahpu"
+    }
+  ],
   "sidebar": {
     "en": [
       ["Welcome", "/"],
