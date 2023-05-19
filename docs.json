@@ -3,7 +3,10 @@
   "description": "A digital catalog for natural history collections.",
   "sidebar": {
     "default": [["Welcome", "/EN"]],
-    "en": [["Welcome", "/EN"]],
+    "en": [
+      ["Welcome", "/EN"],
+      ["Quick Start", "EN/quick_start"]
+    ],
     "id": [["Selamat Datang", "/ID"]]
   }
 }
