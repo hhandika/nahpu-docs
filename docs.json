@@ -2,7 +2,6 @@
   "name": "Nahpu",
   "description": "A digital catalog for natural history collections.",
   "sidebar": {
-    "default": [["Welcome", "/EN"]],
     "en": [
       ["Welcome", "/"],
       ["Quick Start", "/quick_start"]
