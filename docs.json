@@ -23,7 +23,7 @@
         [
           ["Dashboard", "/dashboard"],
           ["Sites", "/sites"],
-          ["Collecting event", "coll_event"]
+          ["Collecting event", "/coll_event"]
         ]
       ],
       ["Contributor Resources", [["Contributing", "/contributing"]]],
