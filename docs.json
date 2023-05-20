@@ -16,7 +16,17 @@
       ["Welcome", "/"],
       ["Donate", "/donation"],
       ["Quick Start", "/quick_start"],
-      ["Installation", "/installation"]
+      ["Installation", "/installation"],
+      [
+        "Usage",
+        [
+          ["Dashboard", "/dashboard"],
+          ["Sites", "/sites"],
+          ["Collecting event", "coll_event"]
+        ]
+      ],
+      ["Contributor Resources", [["Contributing", "/contributing"]]],
+      ["Finance", "/finance"]
     ],
     "id": [["Selamat Datang", "/ID"]]
   }
