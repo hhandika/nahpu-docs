@@ -21,11 +21,27 @@
       [
         "Usage",
         [
-          ["Dashboard", "/dashboard"],
+          ["Overview", "/usages"],
+          ["Projects", "/projects"],
+          ["Personnel", "/personnel"],
+          ["Taxon registry", "/taxon"],
           ["Sites", "/sites"],
-          ["Collecting event", "/coll_event"]
+          ["Collecting events", "/coll_event"],
+          ["Narrative", "/narrative"],
+          ["Specimen records", "/specimens"],
+          ["Mammalian records", "/mammals"],
+          ["Avian records", "/birds"]
         ]
       ],
+      [
+        "Data Management",
+        [
+          ["General workflow", "/workflow"],
+          ["Exporting records", "/export"],
+          ["Backing up database", "/backup"]
+        ]
+      ],
+
       ["Contributor Resources", [["Contributing", "/contributing"]]],
       ["Finance", "/finance"]
     ],
