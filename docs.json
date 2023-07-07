@@ -38,7 +38,9 @@
         [
           ["General workflow", "/workflow"],
           ["Exporting records", "/export"],
-          ["Backing up database", "/backup"]
+          ["Backing up database", "/backup"],
+          ["Restoring database", "/restore"],
+          ["Automatic workflow", "/automation"]
         ]
       ],
 
