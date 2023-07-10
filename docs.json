@@ -24,15 +24,15 @@
         "Usage",
         [
           ["Overview", "/usages"],
-          ["Projects", "/projects"],
-          ["Personnel", "/personnel"],
-          ["Taxon registry", "/taxon"],
-          ["Sites", "/sites"],
-          ["Narrative", "/narrative"],
+          ["Avian records", "/birds"],
           ["Collecting events", "/coll_event"],
-          ["Specimen records", "/specimens"],
           ["Mammalian records", "/mammals"],
-          ["Avian records", "/birds"]
+          ["Narrative", "/narrative"],
+          ["Personnel", "/personnel"],
+          ["Projects", "/projects"],
+          ["Sites", "/sites"],
+          ["Specimen records", "/specimens"],
+          ["Taxon registry", "/taxon"]
         ]
       ],
       [
