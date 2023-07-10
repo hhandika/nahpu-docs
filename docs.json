@@ -18,6 +18,8 @@
       ["Donate", "/donation"],
       ["Quick Start", "/quick_start"],
       ["Installation", "/installation"],
+      ["Team", "/team"],
+      ["Workflow", "/workflow"],
       [
         "Usage",
         [
@@ -36,7 +38,6 @@
       [
         "Data Management",
         [
-          ["General workflow", "/workflow"],
           ["Exporting records", "/export"],
           ["Backing up database", "/backup"],
           ["Restoring database", "/restore"],
