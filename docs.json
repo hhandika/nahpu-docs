@@ -28,8 +28,8 @@
           ["Personnel", "/personnel"],
           ["Taxon registry", "/taxon"],
           ["Sites", "/sites"],
-          ["Collecting events", "/coll_event"],
           ["Narrative", "/narrative"],
+          ["Collecting events", "/coll_event"],
           ["Specimen records", "/specimens"],
           ["Mammalian records", "/mammals"],
           ["Avian records", "/birds"]
