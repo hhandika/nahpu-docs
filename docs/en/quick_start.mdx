@@ -1,3 +1,17 @@
 # Quick Start
 
-Coming soon...
+## Installation
+
+You can install NAHPU by following the guidelines in the installation instruction.
+
+## Workflow
+
+### Adding records
+
+1. Create a new project using the `+` button in the bottom right corner of the home screen.
+2. In the project Dashboard, add a new personnel. You need at least a person with specimen care role as a cataloger. You can add more people with different roles. Cataloger is the person that will be responsible for cataloging the specimen. Their initial and field number will be used to generate the Field ID in the specimen catalog page. Their name will also appear whenever the field ask for personnel name, such as collecting personnel and preparator. _Preparator only_ is a person that helps prepare the specimen, but does not involve in managing the data. Their names will not appear in the cataloger field in the specimen page. For the other personnel that does not directly involve in the specimen care, select _None_ as their role.
+3. Add a new taxon. You can add a taxon manually using the add taxon button or import using a comma-delemited (.csv) file. For CSV import, the app requires UTF-8 format as stated in the file import page. It should be the default format for Apple Number or Google Spreadsheet. If you are using Microsoft Excel, you can save the file as CSV UTF-8 format. You need to data with all of these column: `taxonClass`, `taxonFamily`, `genus`, `specificEpithet`. You can also have `commonName` and `notes` column. The app will automatically detect the column headers with those names. Other columns will be ignored.
+4. Add sites.
+5. Add collecting events.
+6. Add specimen records.
+7. Add narrative.
