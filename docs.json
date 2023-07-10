@@ -45,8 +45,14 @@
         ]
       ],
 
-      ["Contributor Resources", [["Contributing", "/contributing"]]],
-      ["Terms and Condition", "/terms"],
+      [
+        "Contributor Resources",
+        [
+          ["Contributing", "/contributing"],
+          ["Software Architecture", "/architecture"]
+        ]
+      ],
+      ["Terms and Conditions", "/terms"],
       ["Privacy Policy", "/privacy"]
     ],
     "id": [["Selamat Datang", "/id"]],
