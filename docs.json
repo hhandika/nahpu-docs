@@ -46,8 +46,12 @@
       ],
 
       ["Contributor Resources", [["Contributing", "/contributing"]]],
-      ["Finance", "/finance"]
+      ["Terms and Condition", "/terms"],
+      ["Privacy Policy", "/privacy"]
     ],
-    "id": [["Selamat Datang", "/ID"]]
+    "id": [["Selamat Datang", "/id"]],
+    "br": [["Bem-vindo", "/br"]],
+    "es": [["Bienvenido", "/es"]],
+    "fr": [["Bienvenue", "/fr"]]
   }
 }
