@@ -55,9 +55,9 @@
       ["Terms and Conditions", "/terms"],
       ["Privacy Policy", "/privacy"]
     ],
+    "fr": [["Bienvenue", "/fr"]],
     "id": [["Selamat Datang", "/id"]],
     "pt": [["Bem-vindo", "/pt"]],
-    "es": [["Bienvenido", "/es"]],
-    "fr": [["Bienvenue", "/fr"]]
+    "es": [["Bienvenido", "/es"]]
   }
 }
