@@ -4,14 +4,58 @@
 
 You can install NAHPU by following the guidelines in the installation instruction.
 
-## Workflow
+## Quick Workflow
 
-### Adding records
+### Steps:
 
-1. Create a new project using the `+` button in the bottom right corner of the home screen.
-2. In the project Dashboard, add a new personnel. You need at least a person with specimen care role as a cataloger. You can add more people with different roles. Cataloger is the person that will be responsible for cataloging the specimen. Their initial and field number will be used to generate the Field ID in the specimen catalog page. Their name will also appear whenever the field ask for personnel name, such as collecting personnel and preparator. _Preparator only_ is a person that helps prepare the specimen, but does not involve in managing the data. Their names will not appear in the cataloger field in the specimen page. For the other personnel that does not directly involve in the specimen care, select _None_ as their role.
-3. Add a new taxon. You can add a taxon manually using the add taxon button or import using a comma-delemited (.csv) file. For CSV import, the app requires UTF-8 format as stated in the file import page. It should be the default format for Apple Number or Google Spreadsheet. If you are using Microsoft Excel, you can save the file as CSV UTF-8 format. You need to data with all of these column: `taxonClass`, `taxonFamily`, `genus`, `specificEpithet`. You can also have `commonName` and `notes` column. The app will automatically detect the column headers with those names. Other columns will be ignored.
-4. Add sites.
-5. Add collecting events.
-6. Add specimen records.
-7. Add narrative.
+#### 1. [Create a new project](/projects)
+
+Use the `+` button in the bottom right corner of the home screen.
+
+#### 2. In the project Dashboard, [add a new personnel](/personnel).
+
+You need at least a person with specimen care role as a cataloger. You can add more people with different roles.
+
+[Cataloger](/personnel#cataloger) is the person that will be responsible for cataloging the specimen. Their initial and field number will be used to generate the Field ID in the specimen catalog page. Their name will also appear whenever the field ask for personnel name, such as collecting personnel and preparator.
+
+[Preparator only](/personnel#preparator-only) is a person that helps prepare the specimen, but does not involve in managing the data. Their names will not appear in the cataloger field in the specimen page.
+
+For the other personnel that does not directly involve in the specimen care, select [None](/personnel#none) as their role. Their names will only appear in the `Collecting personnel` field.
+
+#### 3. Add a new taxon.
+
+You can add a taxon manually using the add taxon button or import using a comma-delemited (.csv) file.
+
+For CSV import, the app requires `UTF-8` format. It should be the default csv export format for [Apple Numbers](https://www.apple.com/numbers/) or [Google Spreadsheet](https://www.google.com/sheets/about/). If you are using Microsoft Excel, save the file as `CSV UTF-8` format.
+
+You need the data with all of these column: `taxonClass`, `taxonFamily`, `genus`, `specificEpithet`. You can also have `commonName` and `notes` column. The app will automatically detect the column headers with those names. You can manually select the column type using dropdown menu if the app does not automatically assign the right column for each respective data. Other columns will be ignored.
+
+#### 4. Create a site.
+
+To create a new site, use the `+` button in the top right corner of the site. Fill at least the `Site ID`. The app limit the site ID to 15 characters. You will refer to this ID throughout the record field whenever it asks for a site. Try to make it short but descriptive. We often label ID city, town, or village as it is. For example, the city of Bogor will BOGOR. The trap line, on the other hand, often the ID will be with locality abbreviation and `L` to indicate a line. For example, line 1 in Mt. Gede-Pangrango will be `GP-L1`.
+
+#### 5. Add narrative.
+
+To create a narrative, use the `+` button in the top right corner of the narrative. Select the date and site ID. Then, write the narrative.
+
+#### 6. Add collecting events.
+
+Collecting event helps you keep track the collecting efforts, personnel, and weather data for each event. The specimen records link to the event instead of the site. This way, you can have multiple collecting events in a single site.
+
+To create a collecting event, use the `+` button in the top right corner of the collecting event. Select `site ID`, `start date`, `start time`, `end date`, and `end time`. Then, fill the rest of the form.
+
+Unlike the site that you will only create each time you move to a new site, collecting events are created for each collecting effort. For example, for studying nocturnal rodents, we often set traps a night before and check them the next day. We will create collecting event after we collect the specimen. The start date will be a day earlier, and the end date will be today's date.
+
+The app uses the a combination of site ID and start date to create a unique ID for each collecting event. You will use this ID to refer to the collecting event in the specimen record. In some edge case where you have multiple collecting events in a single day in the same site, you can add a suffix to the ID. For example, `Line1-Mar 26, 2023-1` and `Line1-Mar 26, 2023-2`.
+
+#### 7. Add specimen records.
+
+To create a specimen record, use the `+` button in the top right corner of the specimen record. Fill in all the relevan information. The only different between different catalog format is the measurement fields. You can check which catalog format in the current page by looking at the icon in the specimen parts. Mammal will be `paws`, bird will be `bird head`. The specimen record icon in the navigation bar tells you about the current active format.
+
+#### 8. Exporting records.
+
+You can export the data by tapping/clicking the menu button in the top left corner of the project dashboard.
+
+#### 9. Backing up database.
+
+You can backup the database by tapping/clicking the menu button in the top left corner of the project dashboard. The database will be exported as a sqlite3 file. Current version does not export the media. We are working on a way to export the media as a part of database as well.
