@@ -15,11 +15,11 @@
   "sidebar": {
     "en": [
       ["Welcome", "/"],
-      ["Donate", "/donation"],
-      ["Quick Start", "/quick_start"],
+      ["Switch to NAHPU", "/switch"],
+      ["NAHPU Day 1", "/day_one"],
       ["Installation", "/installation"],
       ["Team", "/team"],
-      ["Switch to NAHPU", "/switch"],
+      ["Donate", "/donation"],
       [
         "Usage",
         [
