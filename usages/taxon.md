@@ -5,7 +5,7 @@ title: Taxon Registry
 
 ## Overview
 
-You can register a new taxon manually or by importing a CSV file.
+You can register a new taxon manually or by importing a file.
 
 ## Register a new taxon
 
@@ -33,12 +33,31 @@ You can register a new taxon manually or by importing a CSV file.
 2. At the taxon panel, click on the `+ Add taxon` button.
 3. Fill in the taxon information.
 
-### Import from CSV
+### Import from file
 
-1. Prepare a CSV file.
+1. Prepare your import file. Preferred formats are `.xlsx`, `.csv`, and `.tsv`.
 2. Go to the project dashboard.
 3. At the taxon panel, click on the `Import from file` button.
-4. Use the `Select file` button to add the CSV file. The app will automatically map the columns to the correct fields.
+4. Use the `Select file` button to add the file. The app will automatically map the columns to the correct fields.
+
+Delimiter behavior:
+
+- `.csv` uses comma.
+- `.tsv` uses tab.
+- Excel files are parsed as spreadsheets.
+- For other file types, NAHPU makes a best-effort parsing attempt.
+- If a file extension is not recognized, auto detect first tries Excel, comma, tab, and semicolon.
+- If auto detect still fails, enter a custom raw delimiter in advanced parser override.
+
+Recommended import template columns:
+
+- `class`, `Order`, `family`, `genus`, `epithet`, `scientific name`, `common name`
+- Required import fields are `class`, `Order`, `family`, `genus`, and `epithet`.
+- Header matching is flexible, so aliases such as `taxonClass`, `taxonOrder`, `taxonFamily`, and `specificEpithet` are also accepted.
+
+:::note
+Best support is for `.xlsx`. Older/other Excel formats may fail. If needed, re-save as `.xlsx`, `.csv`, or `.tsv`.
+:::
 
 ## Edit a taxon
 

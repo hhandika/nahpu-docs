@@ -30,18 +30,22 @@ For the other personnel not directly involved in the specimen care, select [None
 
 ### 3. Add a new taxon
 
-You can add a taxon manually using the add taxon button or import from a comma-delimited (.csv) file.
+You can add a taxon manually using the add taxon button or import from a file.
 
-The app requires `UTF-8` format for CSV import. This should be the default .csv export format for [Apple Numbers](https://www.apple.com/numbers/) or [Google Spreadsheet](https://www.google.com/sheets/about/). If you use Microsoft Excel, save the file as `CSV UTF-8` format.
+Preferred formats are `.xlsx`, `.csv`, and `.tsv`. NAHPU will make a best-effort attempt to parse other file types.
 
-Your csv files requires all of these column: `taxonClass`, `taxonFamily`, `genus`, `specificEpithet`. You can also have `commonName` and `notes` columns. The app will automatically detect the column headers with those names. You can manually select the column type using the dropdown menu if the app does not automatically assign the right column for each data. Other columns will be ignored.
+For recognized delimited files, the app selects delimiters by extension (`.csv` = comma, `.tsv` = tab). For unrecognized extensions, auto detect tries Excel, comma, tab, and semicolon first. If that fails, use advanced parser override and enter a custom raw delimiter.
+
+Best support is for `.xlsx`; older/other Excel formats may fail.
+
+Your import file requires all of these columns: `class`, `Order`, `family`, `genus`, `epithet`. You can also include `scientific name`, `common name`, and `notes`. The app will automatically detect supported header aliases (for example `taxonClass`, `taxonOrder`, `taxonFamily`, `specificEpithet`). You can manually select the column type using the dropdown menu if the app does not automatically assign the right column for each data. Other columns will be ignored.
 
 Example taxon import table:
 
-| taxonClass | taxonFamily | genus   | specificEpithet | commonName        | notes |
-| ---------- | ----------- | ------- | --------------- | ----------------- | ----- |
-| Mammalia   | Muridae     | Bunomys | coelestis       | Heavenly hill rat |       |
-| Mammalia   | Muridae     | Bunomys | penitus         | Inland hill rat   |       |
+| class    | Order    | family  | genus   | epithet   | scientific name   | common name        | notes |
+| -------- | -------- | ------- | ------- | --------- | ----------------- | ------------------ | ----- |
+| Mammalia | Rodentia | Muridae | Bunomys | coelestis | Bunomys coelestis | Heavenly hill rat  |       |
+| Mammalia | Rodentia | Muridae | Bunomys | penitus   | Bunomys penitus   | Inland hill rat    |       |
 
 ### 4. Create a site
 
