@@ -1,49 +1,75 @@
-# Starlight Starter Kit: Basics
+# NAHPU Docs
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This serves documentation, guides, and project information for [NAHPU](https://nahpu.app).
 
-```
-yarn create astro@latest -- --template starlight
-```
+## Project details
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Purpose: host documentation and informational pages for the NAHPU Digital Catalog.
+- Tech stack: Astro (frontend static site generator).
+- Main language: TypeScript / JavaScript (Astro components), Markdown for docs.
 
-## 🚀 Project Structure
+## Prerequisites
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+- Node.js >= 18 (Astro 5+ works best with recent Node versions).  
+- Yarn (project uses Yarn as the package manager per `package.json`). Using npm is possible but the repo was bootstrapped with Yarn.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+If you need to install Yarn you can follow the official guide (or use npm: `npm install -g yarn`).
+
+## Quick start
+
+Install dependencies:
+
+```fish
+yarn install
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Run the development server (hot reload):
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+```fish
+yarn dev
+```
 
-Static assets, like favicons, can be placed in the `public/` directory.
+Build the site for production:
 
-## 🧞 Commands
+```fish
+yarn build
+```
 
-All commands are run from the root of the project, from a terminal:
+Preview the built site locally:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `yarn install`             | Installs dependencies                            |
-| `yarn dev`             | Starts local dev server at `localhost:4321`      |
-| `yarn build`           | Build your production site to `./dist/`          |
-| `yarn preview`         | Preview your build locally, before deploying     |
-| `yarn astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `yarn astro -- --help` | Get help using the Astro CLI                     |
+```fish
+yarn preview
+```
 
-## 👀 Want to learn more?
+These scripts map to the entries in `package.json`:
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- `dev` -> `astro dev`
+- `build` -> `astro build`
+- `preview` -> `astro preview`
+
+## Project structure (important paths)
+
+- `src/pages/` - site pages and routes
+- `src/layouts/` - page layout components (e.g. `Layout.astro`)
+- `src/docs/` - Markdown documentation used by the site
+- `src/components/` - reusable UI components
+- `public/` - static assets (images, favicon, etc.)
+
+## Contributing
+
+See the documentation in `src/docs/contributing/` for contribution guidance, code & doc contribution workflows, and developer tooling.
+
+If you'd like to propose changes, open an issue or submit a pull request on the `main` branch.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Maintainers / Contact
+
+NAHPU Digital Catalog team
+
+--
+Notes and assumptions:
+
+- Assumed Node >= 18 to work well with Astro 5.x. If you need a different Node version, let me know and I can add an `.nvmrc` or update the README.
