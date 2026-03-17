@@ -1,6 +1,8 @@
 ---
-sidebar_position: 13
 title: Terms and Conditions
+sidebar:
+    label: Terms and Conditions
+    order: 13
 ---
 
 ## Introduction

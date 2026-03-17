@@ -1,6 +1,8 @@
 ---
-sidebar_position: 12
 title: Privacy Policy
+sidebar:
+    label: Privacy Policy
+    order: 8
 ---
 
 ## Introduction

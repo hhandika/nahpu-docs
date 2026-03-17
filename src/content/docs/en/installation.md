@@ -1,9 +1,9 @@
 ---
-sidebar_position: 4
+title: Installation
+sidebar:
+    label: Installation
+    order: 3
 ---
-
-# Installation
-
 ## NAHPU development status
 
 NAHPU is currently in release candidate versions. This means that the app is still in beta testing and may contain bugs or incomplete features, but it is stable enough for general use. We are nearing the final release in the official app stores.
@@ -59,8 +59,8 @@ Apple requires beta tester to use Apple [TestFlight](https://developer.apple.com
 
 Device support:
 
-- List of oldest supported macOS devices can be found [here](https://support.apple.com/en-us/102861).
-- Device support for iOS and iPadOS can be found [here](https://iosref.com/ios).
+- List of oldest supported macOS devices can be found the [Apple Support](https://support.apple.com/en-us/102861).
+- Device support for iOS and iPadOS can be found the [iosref](https://iosref.com/ios).
 
 To install the app, follow these steps:
 

@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+title: NAHPU Day 1
+sidebar:
+    label: NAHPU Day 1
+    order: 2
 ---
-
-# NAHPU Day 1
-
 NAHPU is a project-based cataloging app. The data is managed and organized based on a project. Each project can have multiple people, sites, narratives, collecting events, and specimen records. The app is designed for use in the field, but it can also be used in the lab.
 
 ## Typical Workflow

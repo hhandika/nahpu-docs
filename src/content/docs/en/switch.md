@@ -1,6 +1,8 @@
 ---
-sidebar_position: 3
-title: Switch to NAHPU
+title: Transitioning to NAHPU
+sidebar:
+    label: Transitioning to NAHPU
+    order: 4
 ---
 
 NAHPU is specifically designed as a digital field catalog for natural history collections. It offers alternatives to other solutions, such as pre-formatted traditional paper-based field catalogs and no-code custom-built form apps like [Claris FileMaker](https://www.claris.com/). This guide provides comprehensive instructions on transitioning from paper-based field catalogs and custom-built form apps to NAHPU.

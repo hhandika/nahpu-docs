@@ -1,6 +1,8 @@
 ---
-sidebar_position: 6
-title: Donation
+title: Support NAHPU
+sidebar:
+    label: Support NAHPU
+    order: 3
 ---
 
 NAHPU is a free and open source project. If you like NAHPU and want to support its development, you can do so by donating to the project. All donations are used to pay for the app registration costs, testing devices, and other expenses.

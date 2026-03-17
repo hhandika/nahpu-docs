@@ -1,6 +1,8 @@
 ---
-sidebar_position: 1
 title: Introduction
+sidebar:
+    label: Introduction
+    order: 1
 ---
 
 **_Rethinking Biodiversity Inventories in the Digital Age_**
