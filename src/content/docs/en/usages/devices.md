@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
 title: Device Requirements
+sidebar:
+  order: 1
 ---
 
 The necessary equipment for using NAHPU will depend on your specific field site and budget constraints. We provide a list of common devices and accessories that are typically required, tailored to various field budgets. These recommendations stem from our hands-on experience in remote tropical field sites with limited access to electricity. Please note that you may need to customize this list to better fit your unique field conditions
@@ -58,13 +59,13 @@ Power banks are not 100% efficient; some energy is lost during the charging proc
 
 The number of charges can be calculated using the following formula:
 
-```math
+```text
 Number of charges = (Power Bank Capacity (mAh) × Efficiency)​ ÷ Device Battery Capacity (mAh)
 ```
 
 For example, to calculate the number of charges for a 25,000 mAh power bank with 60% efficiency charging an iPad Mini 6 with a 5,124 mAh battery:
 
-```math
+```text
 Number of charges = (25,000 mAh × 0.6) ÷ 5,124 mAh = 2.9 charges
 ```
 

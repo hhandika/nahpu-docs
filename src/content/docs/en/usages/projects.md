@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
 title: Projects
+sidebar:
+  order: 2
 ---
 
 - [Creating a new project](#creating-a-new-project)

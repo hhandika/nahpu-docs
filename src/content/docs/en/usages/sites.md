@@ -1,6 +1,7 @@
 ---
-sidebar_position: 4
 title: Sites
+sidebar:
+  order: 3
 ---
 
 ## Overview
